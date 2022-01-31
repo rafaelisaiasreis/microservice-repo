@@ -1,0 +1,10 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/fornecedor
+    username: fornecedor
+    password: fornecedor
+    driver-class-name: com.mysql.jdbc.Driver
